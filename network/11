@@ -1,0 +1,3 @@
+use traceroute slash16.org
+then 1 line is the local adress of maschine, 2 - NAT router's adress, 3 - external adress of maschine.
+so you can use: traceroute slash16.org | grep ' 1 '

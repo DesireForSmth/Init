@@ -1,0 +1,4 @@
+Use out of: ifconfig en0 | grep "inet " | awk '{print $2}'
+In: nslookup _OUT_ | grep name | awk '{print $4}'
+
+As a result: oa-i4.21-school.ru.

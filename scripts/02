@@ -1,0 +1,4 @@
+echo "Which user would you like to delete?"
+read username
+
+sudo userdel -r $username

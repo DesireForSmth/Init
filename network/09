@@ -1,0 +1,5 @@
+163.172.250.12
+163.172.250.13
+
+found by: dig +short 42.fr
+or: nslookup 42.fr 8.8.8.8 | grep Adress | grep -v "#" | awk '{print $2}'

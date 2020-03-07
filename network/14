@@ -1,0 +1,2 @@
+The hosts file contains the local DNS entries.
+You can see them by: cat /etc/hosts

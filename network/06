@@ -1,0 +1,2 @@
+In the root: etc/resolv.conf
+You can read the file from any directory with command: cat /etc/resolv.conf
